@@ -1,7 +1,7 @@
 // ===== State =====
 let isDark = false;
  
-// ===== Element References =====
+// ===== Element References ====
 const toggleButton = document.querySelector('#theme-toggle');
 const footer = document.querySelector('#card-footer');
  
