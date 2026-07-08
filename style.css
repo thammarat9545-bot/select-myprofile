@@ -1,7 +1,7 @@
 /* ===== ตัวแปรสี (CSS Custom Properties) ===== */
 :root {
-  --bg: #f4f6fb;
-  --card-bg: #ffffff;
+  --bg: #13d0dd;
+  --card-bg: #1fce2d;
   --text: #1f2933;
   --accent: #2563eb;
 }
@@ -90,8 +90,26 @@ body {
   cursor: pointer;
 }
  
+
 .card__footer {
   margin-top: 1.5rem;
   font-size: 0.85rem;
   opacity: 0.7;
+}
+
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.card__student{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 0 20px;
 }
